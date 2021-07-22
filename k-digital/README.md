@@ -1,0 +1,34 @@
+# K-Digital Training 멀티캠퍼스 데이터 사이언스/엔지니어링
+## 데이터 사이언스 과정
+- 주교재 : 파이썬 머신러닝 완벽 가이드(권철민 지음, 위키북스)
+
+### 210721 강의 요약
+
+- data : fish length and weight data 
+- kNN(k-Nearest Neighbors)  
+`from sklearn.neighbors import KNeighborsClassifier`
+- Hold-out Train data & Test data  
+`from sklearn.model_selection import train_test_split`
+
+- data : iris dataset  
+`from sklearn.datasets import load_iris`
+- Decision Tree  
+`from sklearn.Tree import DecisionTreeClassifier`  
+`from sklearn.metrics import accuracy_score`
+
+### 210722 강의 요약
+
+- data : iris dataset  
+- K-Fold Cross Validation  
+`from sklearn.medel_selection import KFlod`  
+- Stratified K-Fold Cross Validation  
+`from sklearn.model_selection import StratifiedKFold`  
+`from sklearn.model_selection import cross_val_score, cross_validate`
+- GridSearch Cross Validation  
+`from sklearn.model_selection import GridSearchCV`  
+
+- Encoding  
+`from sklearn.preprocessing import OneHotEncoder, LabelEncoder`  
+
+- Normalization & Standardization  
+`from sklearn.preprocessing import MinMaxScaler, StandardScaler`  
