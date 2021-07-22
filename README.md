@@ -14,3 +14,5 @@
     - Pandas
 - Algorithm
 - Statistics
+- Machine Learning
+  - sklearn
