@@ -19,6 +19,7 @@
 ### 210722 강의 요약
 
 - data : iris dataset  
+`from sklearn.datasets import load_iris`
 - K-Fold Cross Validation  
 `from sklearn.medel_selection import KFlod`  
 - Stratified K-Fold Cross Validation  
@@ -32,3 +33,19 @@
 
 - Normalization & Standardization  
 `from sklearn.preprocessing import MinMaxScaler, StandardScaler`  
+
+### 210723 강의 요약
+
+- data : titanic, MNIST dataset  
+`from sklearn.datasets import load_digits`  
+
+- Confusion Matrix  
+`from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix`  
+`from sklearn.metrics import precision_recall_curve`  
+
+- ROC Curve, AUC score  
+`from sklearn.metrics import roc_curve, roc_auc_score`  
+
+- etc.  
+`from sklearn.preprocessing import Binarizer`  
+`from sklearn.base import BaseEstimator`  
