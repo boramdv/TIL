@@ -36,7 +36,7 @@
 
 ### 210723 강의 요약
 
-- data : titanic, MNIST dataset  
+- data : titanic.csv, MNIST dataset  
 `from sklearn.datasets import load_digits`  
 
 - Confusion Matrix  
@@ -49,3 +49,34 @@
 - etc.  
 `from sklearn.preprocessing import Binarizer`  
 `from sklearn.base import BaseEstimator`  
+
+### 210728 강의 요약
+
+- data : iris dataset, Human Activity Recognition, breast cancer wisconsin dataset  
+`from sklearn.datasets import load_iris`  
+`from sklearn.datasets import load_breast_cancer`
+
+- Decision Tree  
+`sklearn.tree import DecisionTreeClassifier`  
+- Decision Tree Visualization  
+`from sklearn.tree import export_graphviz`  
+`import graphviz`  
+`from subprocess import call`  
+`from IPython.display import Image`  
+
+- Classification Sample  
+`from sklearn.datasets import make_classification`
+
+- Ensemble: Voting  
+`from sklearn.ensemble import VotingClassifier`  
+
+- Ensemble: Random Forest  
+`from sklearn.ensemble import RandomForestClassifier`  
+
+- Ensemble: Gradient Boosting  
+`from sklearn.ensemble import GradientBoostingClassifier`
+
+- etc.  
+`import warnings  
+warnings.filterwarnings('ignore')`  
+`import time`
