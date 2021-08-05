@@ -80,3 +80,14 @@
 `import warnings  
 warnings.filterwarnings('ignore')`  
 `import time`
+
+---
+
+### 210805 강의 요약  
+- DNN Classification & Regression  
+  - Overfitting Issue  
+    - L2 Regularization
+    - Dropout
+    - Batch Normalization
+  - Early Stopping
+- Data : MNIST, Boston Housing Price
