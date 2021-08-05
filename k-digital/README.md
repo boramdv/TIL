@@ -90,5 +90,6 @@ warnings.filterwarnings('ignore')`
     - L2 Regularization
     - Dropout
     - Batch Normalization
+    - (두 가지 이상의 방법을 사용할 때 layer 입력 순서의 영향?)
   - Early Stopping
 - Data : MNIST, Boston Housing Price
